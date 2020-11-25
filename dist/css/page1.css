@@ -73,7 +73,7 @@ form{
     color: white;
     font-size: 18px;
     font-weight: 700;}
-.firsfieldtname{
+.form-control input-lg{
     position: relative;
     left:200px;
     top:-37px;
@@ -93,7 +93,7 @@ form{
     font-size: 16px;
     color:#555;
 }
-.firstlabel{
+#field{
     position:relative;
     color:#E5E5E5;
     text-transform: capitalize;
@@ -101,7 +101,7 @@ form{
     left:203px;
     top:-45px;
 }
-.lastlabel{
+#sub-field{
     position:relative;
     color:#E5E5E5;
     text-transform:capitalize;

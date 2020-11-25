@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="css/page1.css" rel="stylesheet" />
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="js/dropdown.js"></script>
 
 </head>
 <body>
@@ -18,29 +18,15 @@
 <div class="main">
 
     <form method="POST">
-        <div class="container" style="width:600px;">
-            <h2 align="center">FIELD</h2><br /><br />
-            <select name="country" id="country" class="form-control input-lg">
-                <option value="">Select field</option>
-            </select>
-            <br>
-            <select name="state" id="state" class="form-control input-lg">
-                <option value="">Select sub-field</option>
-            </select>
-            <br>
-        </div>
+       
+        <h2 class="name">Job Title </h2>
+       <input class="job-title" id="level2" name="job-title" type="text" required>
 
+        <hr><br>
+        <h2 class="name"> Company Name</h2>
+        <input class="company" type="text" name="company" required>
 
-        <h2 class="name">
-            Job Title </h2>
-        <input class="company" type="text" name="company">
-<hr><br>
-        <h2 class="name">
-            Company Name</h2>
-        <input class="company" type="text" name="company">
-
-         <h2 class="name">
-            County</h2>
+         <h2 class="name"> County</h2>
         <select class="option" name="subject">
             <option disabled="disabled" selected="selected">--Choose option--</option>
             <option>Mombasa</option>
@@ -100,20 +86,20 @@
         <label class="phone-number">Phone Number</label>
 
         <h2 id="coustomer">
-            Are you sure?</h2>
+            Full Time job or internship?</h2>
         <label class="radio">
             <input class="radio-one" type="radio" checked="checked" name="rdiobtn">
             <span class="checkmark"></span>
-            Yes
+            <h3>Internship</h3>
         </label>
 
         <label class="radio">
             <input class="radio-two" type="radio" name="rdiobtn">
             <span class="checkmark"></span>
-            No
+            <h3>Full-Time</h3>
         </label>
 
-        <button type="submit">Post</button>
+        <button type="submit"><h3>Post</h3></button>
 
 
     </form>
